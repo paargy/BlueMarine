@@ -45,8 +45,124 @@
         <br>
         <div class="container my-grad-bg">
             <br>
-            <div class="table-responsive">
-              <table class="table table-bordered">
+
+            <button class="tablink" onclick="openPage('Crew Info', this, 'red')">Crew</button>
+            <button class="tablink" onclick="openPage('Ship Info', this, 'green')" id="defaultOpen">General</button>
+            <button class="tablink" onclick="openPage('Course', this, 'blue')">Course</button>
+            <button class="tablink" onclick="openPage('Cargo', this, 'orange')">Cargo</button>
+
+            <div id="Crew Info" class="tabcontent">
+                <h3 style="color:white;">Crew Info</h3>
+                <h2 style="color:white;">Crew member 1</h2>
+                <div class="table-responsive">
+                <table class="table table-bordered">
+                
+                    <tr class="table-cell1">
+                        <th>Name</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Nick" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="NickXXXXXX@gail.com" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Wage</td>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Malta" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Language</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Italian" required><br></td>
+                    </tr>
+        
+                </table>
+                <h2 style="color:white;">Crew member 2</h2>
+                <table class="table table-bordered">
+        
+                    <tr class="table-cell1">
+                        <th>Name</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="George" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="GeorgeXXXXXX@gail.com" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Wage</td>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="1000€" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Italy" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Language</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Italian" required><br></td>
+                    </tr>
+            
+                </table>
+                <h2 style="color:white;">Crew member 3</h2>
+                <table class="table table-bordered">
+            
+                    <tr class="table-cell1">
+                        <th>Name</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Chris" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="ChrisXXXXXX@gail.com" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Wage</td>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="2200€" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Greece" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Language</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Greek,Italian" required><br></td>
+                    </tr>
+            
+                </table>
+                <h2 style="color:white;">Crew member 4</h2>
+                <table class="table table-bordered">
+            
+                    <tr class="table-cell1">
+                        <th>Name</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="John" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="JohnXXXXXX@gmail.com" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Wage</td>
+                            <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="1500€" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Greece" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Language</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="textbox" id="lname" name="lname" value="Greek,Italian" required><br></td>
+                    </tr>
+            
+                </table>
+                </div>
+                </div> 
+
+
+
+                <div id="Ship Info" class="tabcontent">
+                <h3 style="color:white;">Ship Info</h3>
+                <div class="table-responsive">
+                <table class="table table-bordered">
 
                   <tr class="table-cell1">
                       <th>Name</th>
@@ -130,20 +246,81 @@
                       <th>Deck Cranes / Derricks</th>
                       <td class="table-cell1 textbox"><input class="input-1" type="text" id="lname" name="lname" value="NO"><br></td>
                   </tr>
-                  <tr>
-                    <td class="table-cell2">Add image</td>
-                    <td class="table-cell2">
-                        <input type="file" id="img" name="img" accept="image/*">
-                    </td>
-                </tr>
-              </table>
+                </table>
+                </div>
             </div>
+
+        <!--3-->
+        <div id="Course" class="tabcontent">
+            <h3 style="color:white;">Course</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tr class="table-cell1">
+                        <th>Longitude</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="text" id="lname" name="lname" value="666"><br></td>
+                    </tr>
+                    <tr>
+                        <th>Latitude</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="text" id="lname" name="lname" value="666"><br></td>
+                    </tr>
+                    <tr>
+                        <th>Last Port Visited</td>
+                        <td class="table-cell1 textbox"><input class="input-1" type="text" id="lname" name="lname" value="Malta"><br></td>
+                    </tr>
+                    <tr>
+                        <th>Next Port</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="text" id="lname" name="lname" value="London"><br></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+  
+        <!--4-->
+        <div id="Cargo" class="tabcontent">
+            <h3 style="color:white;">Cargo</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tr class="table-cell1">
+                        <th>Number Of Holds</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="text" id="lname" name="lname" value="10"><br></td>
+                    </tr>
+                    <tr>
+                        <th>Type Of Cargo</th>
+                        <td class="table-cell1 textbox"><input class="input-1" type="text" id="lname" name="lname" value="Rice"><br></td>
+                    </tr>
+                    <tr>
+                        <th>Total Holds Capacity</td>
+                        <td class="table-cell1 textbox"><input class="input-1" type="text" id="lname" name="lname" value="500Kg"><br></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script>
+            function openPage(pageName,elmnt,color) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+              }
+              document.getElementById(pageName).style.display = "block";
+              elmnt.style.backgroundColor = color;
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+
+
 
         <a href="seeVesselInfo.html"><input class="submit-button" type="submit" value="Submit"></a>
         <a href="edit.html"><input class="submit-button" type="reset" value="Reset"></a>
         <br>
         <br>
-    </form>
     </div>
     <br>
     <br>
