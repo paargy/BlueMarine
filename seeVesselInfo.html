@@ -33,12 +33,12 @@
             </a>
     			</div>
     			<div id="navbar" class="navbar-collapse collapse">
-    			  <ul class="nav navbar-nav">
-    					<li class="inactive"><a href="home.html">Home</a></li>
+    			    <ul class="nav navbar-nav">
+    				    <li class="inactive"><a href="home.html">Home</a></li>
 
-    			  </ul>
+    			    </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="inactive"><a href="index.html" role="button"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+                <li class="inactive"><a href="index.html" role="button"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
             </ul>
 
     			</div>
@@ -48,104 +48,287 @@
         <br>
 
         <div class="container my-grad-bg">
-            <br>
-            <br>
-          <a href="edit.html"><button class="button edit-button"><span class="glyphicon glyphicon-pencil"></span> Edit Vessel</button></a>
-          <a href="home.html"><button class="button custom-button pull-right"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back</button></a>
+        <br>
+        <br>
+        <a href="edit.html"><button class="button edit-button"><span class="glyphicon glyphicon-pencil"></span> Edit Vessel</button></a>
+        <a href="home.html"><button class="button custom-button pull-right"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back</button></a>
 
-          <br>
-          <div class="table-responsive">
-            <table class="table table-bordered">
+        <br>
 
-                <tr class="table-cell1">
-                    <th>Name</th>
-                    <td>MV Gortynia</td>
-                </tr>
-                <tr>
-                    <th>Type</th>
-                    <td>Capesize</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>Year Built / Yard</th>
-                    <td>May 2015/Japan Marine United Corporation Ariake Shipyard</td>
-                </tr>
-                <tr>
-                    <th>Flag</td>
-                    <td>Malta</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>Class</th>
-                    <td>Bureau Veritas</th>
-                </tr>
-                <tr>
-                    <th>P &amp; I Club</th>
-                    <td>UK</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>Owners</th>
-                    <td>Premier Shipholdings Company Ltd</td>
-                </tr>
-                <tr>
-                    <th>IMO No.</th>
-                    <td> 9702584</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>Call Sign</th>
-                    <td>9HA4259</td>
-                </tr>
-                <tr>
-                    <th>DWT (Summer)</th>
-                    <td>182,608 MT</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>TPC (on Summer Draft)</th>
-                    <td> 124.25 MT</td>
-                </tr>
-                <tr>
-                    <th>GRT / NT</th>
-                    <td>93297 / 58940</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>LOA / Beam / Summer Draft</th>
-                    <td>292.00 M / 45.00 M / 18.180 M</td>
-                </tr>
-                <tr>
-                    <th>Holds / Hatches</th>
-                    <td>9 / 9</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>Hatch Sizes</th>
-                    <td>NO 1 = 14.10 M x 21.80 M&nbsp;<br>NO 2- NO 9 = 15.52 M x 21.80 M&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>
-                    </td>
-                </tr>
-                <tr>
-                    <th>Grain Capacity</th>
-                    <td>--</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>Bail Capacity</th>
-                    <td>195,291 m<sup>3</sup></td>
-                </tr>
-                <tr>
-                    <th>Speed</th>
-                    <td>14.0 knots (ballast) – 13.0 knots (laden)</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>Consumption</th>
-                    <td> 38.10 MT VLSFO (ballast) – 41.50 MT VLSFO&nbsp;<br>(laden) + about 0.2 metric tons MDO per day&nbsp;<br>(ballast + laden) </td>
-                </tr>
-                <tr>
-                    <th>Port Consumption</th>
-                    <td>3.3 MT IFO + 0.2 MT MDO (idle)</td>
-                </tr>
-                <tr class="table-cell1">
-                    <th>Deck Cranes / Derricks</th>
-                    <td class="table-cell1">NO</td>
-                </tr>
-            </table>
-          </div>
+        <button class="tablink" onclick="openPage('Crew Info', this, 'red')">Crew</button>
+        <button class="tablink" onclick="openPage('Ship Info', this, 'green')" id="defaultOpen">General</button>
+        <button class="tablink" onclick="openPage('Course', this, 'blue')">Course</button>
+        <button class="tablink" onclick="openPage('Cargo', this, 'orange')">Cargo</button>
+        
+        
+        <!--1-->
+        <div id="Crew Info" class="tabcontent">
+        <h3 style="color:white;">Crew Info</h3>
+        <h2 style="color:white;">Crew member 1</h2>
+        <div class="table-responsive">
+        <table class="table table-bordered">
+        
+            <tr class="table-cell1">
+                <th>Name</th>
+                <td>Nick</td>
+            </tr>
+            <tr>
+            <th>Email</th>
+            <td>NickXXXXXX@gail.com</td>
+            </tr>
+            <tr>
+                <th>Wage</td>
+                <td>2000€</td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>Malta</td>
+            </tr>
+            <tr>
+                <th>Language</th>
+                <td>Italian</td>
+            </tr>
 
-        <img class="graph" src="images/DryBulkEarnings.png" alt="graph">
+        </table>
+        <h2 style="color:white;">Crew member 2</h2>
+        <table class="table table-bordered">
+
+            <tr class="table-cell1">
+                <th>Name</th>
+                <td>George</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>GeorgeXXXXXX@gail.com</td>
+            </tr>
+            <tr>
+                <th>Wage</td>
+                <td>1000€</td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>Italy</td>
+            </tr>
+            <tr>
+                <th>Language</th>
+                <td>Italian</td>
+            </tr>
+    
+        </table>
+        <h2 style="color:white;">Crew member 3</h2>
+        <table class="table table-bordered">
+    
+            <tr class="table-cell1">
+                <th>Name</th>
+                <td>Chris</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>ChrisXXXXXX@gail.com</td>
+            </tr>
+            <tr>
+                <th>Wage</td>
+                <td>2200€</td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>Greece</td>
+            </tr>
+            <tr>
+                <th>Language</th>
+                <td>Greek,Italian</td>
+            </tr>
+    
+        </table>
+        <h2 style="color:white;">Crew member 4</h2>
+        <table class="table table-bordered">
+    
+            <tr class="table-cell1">
+                <th>Name</th>
+                <td>John</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>JohnXXXXXX@gail.com</td>
+            </tr>
+            <tr>
+                <th>Wage</td>
+                <td>1500€</td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>Greece</td>
+            </tr>
+            <tr>
+                <th>Language</th>
+                <td>Greek,Italian</td>
+            </tr>
+    
+        </table>
+        </div>
+        </div>            
+        
+          
+        <!--2-->
+        <div id="Ship Info" class="tabcontent">
+            <h3 style="color:white;">Ship Info</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+    
+                    <tr class="table-cell1">
+                        <th>Name</th>
+                        <td>MV Gortynia</td>
+                    </tr>
+                    <tr>
+                        <th>Type</th>
+                        <td>Capesize</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>Year Built / Yard</th>
+                        <td>May 2015/Japan Marine United Corporation Ariake Shipyard</td>
+                    </tr>
+                    <tr>
+                        <th>Flag</td>
+                        <td>Malta</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>Class</th>
+                        <td>Bureau Veritas</th>
+                    </tr>
+                    <tr>
+                        <th>P &amp; I Club</th>
+                        <td>UK</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>Owners</th>
+                        <td>Premier Shipholdings Company Ltd</td>
+                    </tr>
+                    <tr>
+                        <th>IMO No.</th>
+                        <td> 9702584</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>Call Sign</th>
+                        <td>9HA4259</td>
+                    </tr>
+                    <tr>
+                        <th>DWT (Summer)</th>
+                        <td>182,608 MT</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>TPC (on Summer Draft)</th>
+                        <td> 124.25 MT</td>
+                    </tr>
+                    <tr>
+                        <th>GRT / NT</th>
+                        <td>93297 / 58940</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>LOA / Beam / Summer Draft</th>
+                        <td>292.00 M / 45.00 M / 18.180 M</td>
+                    </tr>
+                    <tr>
+                        <th>Holds / Hatches</th>
+                        <td>9 / 9</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>Hatch Sizes</th>
+                        <td>NO 1 = 14.10 M x 21.80 M&nbsp;<br>NO 2- NO 9 = 15.52 M x 21.80 M&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Grain Capacity</th>
+                        <td>--</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>Bail Capacity</th>
+                        <td>195,291 m<sup>3</sup></td>
+                    </tr>
+                    <tr>
+                        <th>Speed</th>
+                        <td>14.0 knots (ballast) – 13.0 knots (laden)</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>Consumption</th>
+                        <td> 38.10 MT VLSFO (ballast) – 41.50 MT VLSFO&nbsp;<br>(laden) + about 0.2 metric tons MDO per day&nbsp;<br>(ballast + laden) </td>
+                    </tr>
+                    <tr>
+                        <th>Port Consumption</th>
+                        <td>3.3 MT IFO + 0.2 MT MDO (idle)</td>
+                    </tr>
+                    <tr class="table-cell1">
+                        <th>Deck Cranes / Derricks</th>
+                        <td class="table-cell1">NO</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--3-->
+        <div id="Course" class="tabcontent">
+            <h3 style="color:white;">Course</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tr class="table-cell1">
+                        <th>Longitude</th>
+                        <td>666</td>
+                    </tr>
+                    <tr>
+                        <th>Latitude</th>
+                        <td>666</td>
+                    </tr>
+                    <tr>
+                        <th>Last Port Visited</td>
+                        <td>Malta</td>
+                    </tr>
+                    <tr>
+                        <th>Next Port</th>
+                        <td>London</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+  
+        <!--4-->
+        <div id="Cargo" class="tabcontent">
+            <h3 style="color:white;">Cargo</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tr class="table-cell1">
+                        <th>Number Of Holds</th>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>Type Of Cargo</th>
+                        <td>Rice</td>
+                    </tr>
+                    <tr>
+                        <th>Total Holds Capacity</td>
+                        <td>500Kg</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script>
+            function openPage(pageName,elmnt,color) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+              }
+              document.getElementById(pageName).style.display = "block";
+              elmnt.style.backgroundColor = color;
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+            
     </div>
     <br>
     <br>
